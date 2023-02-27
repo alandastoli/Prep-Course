@@ -16,7 +16,7 @@ display: block;
 
 /* Acá va tu código */
 #ejercicioDos {
-    display: block;
+    display: none;
 }
 
 
@@ -25,8 +25,8 @@ display: block;
 /* Acá va tu código */
 #ejercicioTres{
     position: relative;
-    margin-top: 100px;
-    margin-left: 200px;
+    top: 100px;
+    left: 200px;
     
     
 }
@@ -37,7 +37,8 @@ display: block;
 /* Acá va tu código */
 #ejercicioCuatro{
     position: fixed;
-    top: 0px;
+    top: 0;
+    left: 0;
 }
 
 
@@ -45,26 +46,29 @@ display: block;
 
 /* Acá va tu código */
 #ejercicioCinco{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row-reverse;
+ display: flex;  
+ justify-content: space-evenly;
+ align-items: center;
 }
 
 
 /* Ejercicio 6. */
+#ejercicioCinco{
+    flex-direction: row-reverse;
+    
+}
+
+/* ejercicio 7*/
 #ejercicioSiete{
-    width: 600px;
-    height: 600px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column-reverse;
-    align-items: center;
+width: 700px;
+height: 700px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
 }
 
 #elementoUno{
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-    margin-left: 150px;
+    align-self: center;
 }
+
